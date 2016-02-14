@@ -1,0 +1,500 @@
+/*------------------------------------*\
+    $CONTENU
+\*------------------------------------*/
+
+body {
+	background-color: #EDEFED;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.img_titre {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin: auto;
+}
+
+/*------------------------------------*\
+    $ENTETE
+\*------------------------------------*/
+
+/*.header {
+	background-image: url("");
+	background-size: cover;
+	background-position: center;
+	background-color:rgba(0, 0, 0, 0.7);
+	background-blend-mode: overlay;
+	height: 650px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+}
+
+.nav_top ul {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav_top li {
+	padding: 25px;
+}*/
+
+/*.logo {
+	flex-basis: 60%;
+	flex-grow: 1;
+}
+*/
+
+.bnt_top {
+	border: 1px solid white;
+	color: white;
+	font-weight: bold;
+}
+
+.btn_center {
+	background-color: grey;
+	color: white;
+	/*opacity: 0.6;*/
+}
+
+.btn_center:hover {
+	border-color: #676c6e;
+    border-bottom-color: #444749;
+    background-color: #676c6e;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav_center {
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.btn_white {
+
+	margin-top: 30px;
+	color: black;
+	background-color: white;
+	border: 1px solid #AAAAAA;
+	padding: 10px 73px;
+
+}
+
+.saisie {
+	margin-top: 35px;
+	text-align: center;
+}
+
+.saisie input, select, button {
+	margin-left: -4px;
+}
+
+
+/*------------------------------------*\
+    $MAIN - EXPLOREZ LE MONDE
+\*------------------------------------*/
+
+.main {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+}
+
+.main section {
+	margin-bottom: 6%;
+}
+
+.cent_euro {
+	padding-top: 5%;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+.centeuro_btn {
+	padding: 4%;
+	background-color: white;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.centeuro_btn h4 {
+	margin: 2% 0;
+}
+
+
+.centeuro_btn span {
+	margin: 8% 0;
+}
+
+.img_mer {
+	background-image: url("../img/header2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-width: 344px;
+	height: 344px;
+	display:flex;
+	flex-grow: 1;
+	
+}
+
+.we_title, .we_btn {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+
+}
+
+.we_title {
+	padding: 10px 0 30px 0;
+}
+
+.we_title h2 {
+	font-size: 30px;
+	color: #565A5C;
+	font-weight: bolder;
+	line-height: 65px;
+}
+
+.we_btn {
+	padding: 30px 0 30px 0;
+}
+
+
+.we_img {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.img {
+	min-width: 320px;
+	height: 344px;	
+	background-size: cover;
+}
+
+.img_lille {
+	background-image: url("../img/lille.jpg");
+}
+
+.img_bruxelles {
+	background-image: url("../img/bruxelles.jpg");
+}
+
+.img_londres {
+	background-image: url("../img/londres.jpg") ;
+}
+
+/*.monde {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}*/
+
+.pays {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	flex:1;
+}
+
+.paquet1 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.img_lisbonne {
+	background-image: url("../img/lisbonne.jpg");
+	background-repeat: no-repeat;
+	min-width: 314px;
+	height: 344px;	
+	flex:1;
+}
+
+.img_chezqqn1 {
+	background-image: url("../img/chezqqn1.jpg");
+	background-repeat: no-repeat;
+	min-width: 314px;
+	height: 344px;	
+}
+
+.paquet2 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.img_amsterdam {
+	background-image: url("../img/amsterdam.jpg");
+	background-repeat: no-repeat;
+	min-width: 314px;
+	height: 344px;	
+}
+
+.img_new-york {
+	background-image: url("../img/new-york.jpg");
+	background-repeat: no-repeat;
+	min-width: 314px;
+	height: 344px;	
+}
+
+.img_venise {
+	background-image: url("../img/venise.jpg");
+	background-repeat: no-repeat;
+	height: 344px;
+	min-width: 314px;	
+}
+
+.paquet3 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.img_chezqqn2 {
+	background-image: url("../img/chezqqn2.jpg");
+	background-repeat: no-repeat;
+	min-width: 314px;
+	height: 344px;
+}
+
+.img_rome {
+	background-image: url("../img/rome.jpg");
+	background-repeat: no-repeat;
+	min-width: 314px;
+	height: 344px;
+	flex: 1;	
+}
+
+.paquet4 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.img_berlin {
+	background-image: url("../img/berlin.jpg");
+	background-repeat: no-repeat;
+	min-width: 314px;
+	height: 344px;	
+}
+
+.img_bordeaux {
+	background-image: url("../img/bordeaux.jpg");
+	background-repeat: no-repeat;
+	min-width: 314px;
+	height: 344px;	
+}
+
+.img_biarritz {
+	background-image: url("../img/biarritz.jpg");
+	background-repeat: no-repeat;
+	min-width: 314px;
+	height: 344px;	
+}
+/*------------------------------------*\
+    $CAROUSEL - CHEZ VOUS, AILLEURS
+\*------------------------------------*/
+
+.carousel-page {
+width:100%;
+height:600px;
+color:white;
+}
+
+.carousel-indicators {
+	display: none;
+}
+
+/* pour enlever les degradés en fond */
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.car_titre1_h1 {
+	position: relative;
+	top: -50%;
+	left: 33%;
+}
+
+.car_titre1_h3 {
+	position: relative;
+	top: -50%;
+	left: 10%;
+}
+
+/*.car_titre1_i {
+	font-size: 30px;
+	color: black;
+	position: relative;
+	top: -60%;
+	left: 33%;
+}*/
+
+.car_titre2_h1 {
+	position: relative;
+	top: -50%;
+	left: 27%;
+}
+
+.car_titre2_h3 {
+	position: relative;
+	top: -50%;
+	left: 31%;
+}
+
+.create {
+	background-color: #FFB400;
+}
+
+.car_titre3_h1 {
+	position: relative;
+	top: 7%;
+	left: 35%;
+}
+
+.car_titre3_h3 {
+	position: relative;
+	top: 3%;
+	left: 35%;
+}
+
+
+.car_titre4_h1 {
+	position: relative;
+	top: -60%;
+	left: 27%;
+}
+
+.car_titre4_h3 {
+	position: relative;
+	top: -64%;
+	left: 27%;
+}
+/*------------------------------------*\
+    $SECTION - Notre communauté
+\*------------------------------------*/
+
+.img_footer {
+	color: white;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.img_footer1 {
+	background-color: #00B2A4;
+	/*min-width: 313px;*/
+	height: 492px;	
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+
+}
+
+.img_png {
+	padding: 8% 0;
+	width: 53%;
+}
+
+.img_footer2 {
+	background-image: url("../img/footer2.jpg");
+	min-width: 313px;
+	height: 492px;	
+}
+
+.img_footer3 {
+	background-image: url("../img/footer3.jpg");
+	min-width: 313px;
+	height: 492px;	
+}
+
+.img_footer4 {
+	background-image: url("../img/footer4.jpg");
+	min-width: 313px;
+	height: 492px;	
+}
+
+
+/*------------------------------------*\
+    $FOOTER
+\*------------------------------------*/
+footer {
+	margin-top: 2%;
+	height: 500px;
+	background-image: url("../img/fond_footer.png");
+	background-color: #2b2d2e;
+	color: white;
+	font-size: 13px;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.fond_footer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.fond_footer select {
+	background-color: #565a5c;
+    border: 0;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.col1, .col2, .col3, .col4 {
+	padding: 2% 2%;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+footer>hr {
+	width: 80%;
+	color: #555758;
+}
+
+.fin {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+.reseaux {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+.rond {
+	color: white;
+	border:1px solid #666;
+	border-radius: 50%;
+	padding:10px 13px 7px 13px;
+	margin:10px;
+}

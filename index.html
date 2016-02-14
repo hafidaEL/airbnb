@@ -3,16 +3,448 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>titre du modele</title>
     <link rel="stylesheet" href="css/normalize.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
     <meta name="description" content="une page">
     <meta name="author" content="Hafida">
-    <link rel="stylesheet" href="css/styles.css">
+   
+    <link rel="stylesheet" href="css/hero-style.css"> <!-- Resource style -->
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <script src="js/scripts.js"></script>
+<!--     <div class="header">
+        <div class="nav_top">
+            <ul>
+                <li class="logo"><img src="img/logo_blanc.png" alt=""></li>
+                <li>
+                    <span class="btn btn-small bnt_top">Devenez hôte</span>
+                </li>
+                <li>Aide</li>
+                <li>Inscription</li>
+                <li>Connexion</li>
+            </ul> 
+        </div>
+
+        <div class="nav_center">
+            <h1>BIENVENUE A LA MAISON</h1>
+            <p>Louez des logemesnt uniques auprès d'hôtes locaux dans plus de 190 pays.</p>
+            <a href="#" class="btn btn_center">Mode d'emploi</a>
+        </div>
+        <div class="saisie">
+            <input type="text" placeholder="Où voulez-vous aller?">
+            <span class="btn btn_white">Arrivée</span>
+            <span class="btn btn_white">Départ</span>
+            <span class="btn btn_white">1 voyageur</span>
+            <span class="btn btn-danger">Rechercher</span>
+        </div>
+     </div>   -->  
+
+<header class="cd-header">
+        <div id="cd-logo"><a href="#0"><img src="img/logo_blanc.png" alt="Logo"></a></div>
+        <nav class="cd-primary-nav">
+            <ul>
+                <li>
+                    <span class="btn btn-small bnt_top">Devenez hôte</span>
+                </li>
+                <li><a href="#0">Aide</a></li>
+                <li><a href="#0">Inscription</a></li>
+                <li><a href="#0">Connexion</a></li>
+            </ul>
+        </nav> <!-- .cd-primary-nav -->
+    </header>
+<section class="cd-hero">
+        <ul class="cd-hero-slider autoplay">
+            <li class="selected">
+                <div class="cd-full-width cd-img-container">
+                    <img src="img/hero1.jpg" alt="Hero 1">
+                </div> <!-- .cd-half-width.cd-img-container -->
+                <div class="cd-full-width">
+                    <h2>BIENVENUE A LA MAISON</h2>
+                    <p>Louez des logements uniques auprès d'hôtes locaux dans plus de 190 pays.</p>
+                    <a href="#0" class="btn btn_center">Mode d'emploi</a>
+                    
+                </div> <!-- .cd-full-width -->
+            </li>
+
+            <li>
+                <div class="cd-full-width cd-img-container">
+                    <img src="img/hero2.jpg" alt="tech 2">
+                </div> <!-- .cd-half-width.cd-img-container -->
+
+                <div class="cd-full-width">
+                    <h2>BIENVENUE A LA MAISON</h2>
+                    <p>Louez des logements uniques auprès d'hôtes locaux dans plus de 190 pays.</p>
+                    <a href="#0" class="btn btn_center">Mode d'emploi</a>
+                </div> <!-- .cd-half-width -->
+                
+            </li>
+
+            <li class="cd-bg-video">
+                <div class="cd-full-width">
+                    <h2>BIENVENUE A LA MAISON</h2>
+                    <p>Louez des logements uniques auprès d'hôtes locaux dans plus de 190 pays.</p>
+                    <a href="#0" class="btn btn_center">Mode d'emploi</a>
+                </div> <!-- .cd-full-width -->
+
+                <div class="cd-bg-video-wrapper" data-video="video/video">
+                    <!-- video element will be loaded using jQuery -->
+                </div> <!-- .cd-bg-video-wrapper -->
+            </li>
+
+            <li>
+                <div class="cd-full-width cd-img-container">
+                    <img src="img/hero4.jpg" alt="tech 2">
+                </div> <!-- .cd-half-width.cd-img-container -->
+                <div class="cd-full-width">
+                    <h2>BIENVENUE A LA MAISON</h2>
+                    <p>Louez des logements uniques auprès d'hôtes locaux dans plus de 190 pays.</p>
+                    <a href="#0" class="btn btn_center">Mode d'emploi</a>
+                </div> <!-- .cd-full-width -->
+            </li>
+        </ul> <!-- .cd-hero-slider -->
+        <div class="cd-slider-nav">
+            <nav class="saisie">
+                <input type="text" placeholder="Où voulez vous aller ?">
+                <input type="text" placeholder="Arrivée        >     Départ">
+                <select name="nbVoyageurs" id="nbVoyageurs">
+                      <option value="1" SELECTED>1 voyageur</option>
+                      <option value="2">2 voyageurs</option>
+                      <option value="3">3 voyageurs</option>
+                      <option value="4">4 voyageurs</option>
+                      <option value="5">5 voyageurs</option>
+                      <option value="6">6 voyageurs</option>
+                </select>
+                <button class="btn btn-danger">Rechercher</button>
+                           
+
+            </nav> 
+        </div> <!-- .cd-slider-nav -->
+        
+    </section> <!-- .cd-hero -->
+
+
+
+
+
+
+
+    <div class="main">
+        <section>
+            <div class="cent_euro">
+                <div class="img_mer"><h3 class="img_titre">Vous en rêvez ?</h3></div>
+                <div class="centeuro_btn">
+                    <h4>Vivez-le à partir de</h4>
+                    <h4>100€*</h4>
+                    <span class="btn btn-danger">Vivez sur une île privée</span>
+                    <p>Nos <strong style="color: red">conditions générales</strong>  s'appliquent</p>
+                </div>
+            </div>
+          
+            <div class="we_title">
+                <h2>Juste pour le week-end</h2>
+                <p>Découvrez de nouveaux logements incroyables près de chez vous.</p>
+            </div>
+    
+            <div class="we_img">
+                <div class="img img_lille"><h3 class="img_titre">Lille</h3></div>
+                <div class="img img_bruxelles"><h3 class="img_titre">Bruxelles</h3></div> 
+                <div class="img img_londres"><h3 class="img_titre">Londres</h3></div>
+               
+            </div>
+    
+            <div class="we_btn">
+                <span class="btn btn_white">Voir toutes les destinations</span>
+            </div>
+            <div class="we_title">
+                <h2>Explorez le monde</h2>
+                <p>Découvrez les destinations les plus prisées à travers le monde.</p>
+            </div>
+
+            <div class="pays">
+                <div class="paquet1">
+                    <div class="img_lisbonne"><h3 class="img_titre">lisbonne</h3></div>
+                    <div class="img_chezqqn1"><h3 class="img_titre">Où vit Raffaella</h3></div>
+               </div>
+
+                
+                <div class="paquet2">
+                    <div class="img_amsterdam"><h3 class="img_titre">Amsterdam</h3></div>
+                    <div class="img_new-york"><h3 class="img_titre">New-York</h3></div>
+                    <div class="img_venise"><h3 class="img_titre">Venise</h3></div>
+                </div>
+                
+                <div class="paquet3">
+                    <div class="img_chezqqn2"><h3 class="img_titre">Où vit Anna</h3></div>
+                    <div class="img_rome"><h3 class="img_titre">Rome</h3></div>
+                </div>
+
+                <div class="paquet4">
+                    <div class="img_berlin"><h3 class="img_titre">Berlin</h3></div>
+                    <div class="img_bordeaux"><h3 class="img_titre">Bordeaux</h3></div>
+                    <div class="img_biarritz"><h3 class="img_titre">Biarritz</h3></div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+
+<section>
+    <!-- CAROUSEL -->
+
+    <div id="my_carousel" class="carousel slide" data-ride="carousel">
+        <!-- Bulles -->
+        <ol class="carousel-indicators">
+            <li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#my_carousel" data-slide-to="1"></li>
+            <li data-target="#my_carousel" data-slide-to="2"></li>
+            <li data-target="#my_carousel" data-slide-to="3"></li>
+        </ol>
+        <!-- Slides -->
+        <div class="carousel-inner">
+            <!-- Page 1 -->
+            <div class="item active">  
+                <div class="carousel-page">
+                    <img src="img/ailleurs.jpg" class="img-responsive" style="margin:0px auto;" />
+                    <h1 class="car_titre1_h1">CHEZ VOUS, AILLEURS</h1><br>
+                    <h3 class="car_titre1_h3">Découvrez l’accueil chaleureux que les hôtes Airbnb vous réservent à travers le monde.</h3>
+                   <!--  <i class="fa fa-play-circle fa-5x car_titre1_i"></i> -->
+                </div> 
+               
+            </div>   
+            <!-- Page 2 -->
+            <div class="item"> 
+                <div class="carousel-page">
+                    <img src="img/belo.jpg" class="img-responsive img-rounded" style="margin:0px auto;"  />
+                    <h1 class="car_titre2_h1">NOUS VOUS PRÉSENTONS LE BÉLO</h1><br>
+                    <h3 class="car_titre2_h3">Chez vous, ailleurs : l'histoire d'un symbole.</h3>
+                    <!-- <i class="fa fa-play-circle fa-5x car_titre2_i"></i> -->
+                </div> 
+                
+            </div>  
+            <!-- Page 3 -->
+            <div class="item">  
+                <div class="carousel-page create">
+                     <img src="img/belo2.png" class="img-responsive img-rounded" style="margin:0px auto;max-height:100%;"  />
+                     <h1 class="car_titre3_h1">Appropriez-vous Airbnb</h1><br>
+                    <h3 class="car_titre3_h3">Créez votre symbole, raconter votre histoire</h3>
+                </div>  
+              
+            </div>     
+            <!-- Page 4 -->
+            <div class="item">  
+                <div class="carousel-page">
+                     <img src="img/belo3.png" class="img-responsive img-rounded" style="margin:0px auto;max-height:100%;"  />
+                     <h1 class="car_titre4_h1">CHEZ VOUS, OÙ QUE VOUS ALLIEZ</h1><br>
+                    <h3 class="car_titre4_h3">Grâce à Airbnb, vous vous sentirez chez vous en <br> vacances. De villas de luxe aux appartements conviviaux <br> parfaits pour les séjours en vacances, vous trouverez le <br>logement de vos rêves.</h3>
+                </div>  
+              
+            </div>     
+        </div>
+        <!-- Contrôles -->
+        <a class="left carousel-control" href="#my_carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#my_carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+
+</section>
+
+<section>
+    
+    <!-- NOTRE COMMUNAUTE -->
+    <div class="we_title">
+        <h2>Notre communauté</h2>
+    </div>
+
+    <div class="img_footer">
+        <div class="img_footer1">
+            <img class="img_png" src="img/create.png" alt="">
+            <img class="img_png" src="img/footer1.png" alt="">
+            <strong>Appropriez-vous Airbnb</strong>
+            <p style="font-size: 12px;">Créez votre symbole, raconter votre histoire</p>
+        </div>
+        <div class="img_footer2"></div>
+        <div class="img_footer3"></div>
+        <div class="img_footer4"></div>
+    </div>
+
+
+</section>
+
+<footer>
+
+    <div class="fond_footer">
+        <div class="col1">
+                <select>
+                    <option value="id">Bahasa Indonesia</option>
+                    <option value="ms">Bahasa Melayu</option>
+                    <option value="ca">Català</option>
+                    <option value="da">Dansk</option>
+                    <option value="de">Deutsch</option>
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="el">Eλληνικά</option>
+                    <option value="fr" selected="">Français</option>
+                    <option value="it">Italiano</option>
+                    <option value="hu">Magyar</option>
+                    <option value="nl">Nederlands</option>
+                    <option value="no">Norsk</option>
+                    <option value="pl">Polski</option>
+                    <option value="pt">Português</option>
+                    <option value="fi">Suomi</option>
+                    <option value="sv">Svenska</option>
+                    <option value="tr">Türkçe</option>
+                    <option value="is">Íslenska</option>
+                    <option value="cs">Čeština</option>
+                    <option value="ru">Русский</option>
+                    <option value="th">ภาษาไทย</option>
+                    <option value="zh">中文 (简体)</option>
+                    <option value="zh-TW">中文 (繁體)</option>
+                    <option value="ja">日本語</option>
+                    <option value="ko">한국어</option>
+                 </select>
+
+              <select>
+                    <option value="AED">AED</option>
+                    <option value="ARS">ARS</option>
+                    <option value="AUD">AUD</option>
+                    <option value="BGN">BGN</option>
+                    <option value="BRL">BRL</option>
+                    <option value="CAD">CAD</option>
+                    <option value="CHF">CHF</option>
+                    <option value="CLP">CLP</option>
+                    <option value="CNY">CNY</option>
+                    <option value="COP">COP</option>
+                    <option value="CRC">CRC</option>
+                    <option value="CZK">CZK</option>
+                    <option value="DKK">DKK</option>
+                    <option value="EUR" selected="">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="HKD">HKD</option>
+                    <option value="HRK">HRK</option>
+                    <option value="HUF">HUF</option>
+                    <option value="IDR">IDR</option>
+                    <option value="ILS">ILS</option>
+                    <option value="INR">INR</option>
+                    <option value="JPY">JPY</option>
+                    <option value="KRW">KRW</option>
+                    <option value="MAD">MAD</option>
+                    <option value="MXN">MXN</option>
+                    <option value="MYR">MYR</option>
+                    <option value="NOK">NOK</option>
+                    <option value="NZD">NZD</option>
+                    <option value="PEN">PEN</option>
+                    <option value="PHP">PHP</option>
+                    <option value="PLN">PLN</option>
+                    <option value="RON">RON</option>
+                    <option value="RUB">RUB</option>
+                    <option value="SAR">SAR</option>
+                    <option value="SEK">SEK</option>
+                    <option value="SGD">SGD</option>
+                    <option value="THB">THB</option>
+                    <option value="TRY">TRY</option>
+                    <option value="TWD">TWD</option>
+                    <option value="UAH">UAH</option>
+                    <option value="USD">USD</option>
+                    <option value="UYU">UYU</option>
+                    <option value="VND">VND</option>
+                    <option value="ZAR">ZAR</option>
+                </select>
+
+        </div>
+
+        <div class="col2">
+            <h2>Société</h2>
+            <ul>
+                <li>A propos</li>
+                <li>Carrières</li>
+                <li>Presse</li>
+                <li>Blog</li>
+                <li>Aide</li>
+                <li>Règles</li>
+                <li>Réponse aux <br>catastrophes</li>
+                <li>Conditions générales et<br>confidentialité</li>
+            </ul>
+            
+        </div>
+        
+
+        <div class="col3">
+            <h2>Découvrir</h2>
+            <ul>
+                <li>Confiance et sécurité</li>
+                <li>Credit voyage</li>
+                <li>La selection Airbnb</li>
+                <li>Application mobile</li>
+                <li>Soutenir New York</li>
+                <li>Voyage d'affaires</li>
+                <li>Plan du site</li>
+            </ul>
+            
+        </div>
+
+        <div class="col4">
+            <h2>Hébergement</h2>
+            <ul>
+                <li>Pourquoi être hôte</li>
+                <li>Hospitalité</li>
+                <li>Hébergement<br>responsable</li>
+                <li>Sécurité à la maison</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <hr>
+    
+
+    <div class="fin">
+            <h2>Rejoignez-nous sur</h2>
+            <div class="reseaux">
+                <a href="https://www.facebook.com/AirbnbFrance" class="rond">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://plus.google.com/+airbnb" class="rond">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+                <a href="https://twitter.com/airbnb_fr" class="rond">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/airbnb" class="rond">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="https://www.pinterest.com/airbnb/" class="rond">
+                    <i class="fa fa-pinterest"></i>
+                </a>
+                <a href="https://www.youtube.com/user/Airbnb" class="rond">
+                   <i class="fa fa-youtube-play"></i>
+                </a>
+                <a href="https://instagram.com/airbnb" class="rond">
+                   <i class="fa fa-instagram"></i>
+                </a>
+
+            </div>
+
+            <div>
+              © Airbnb, Inc.
+            </div>
+    </div>
+    
+</footer>
+
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>
