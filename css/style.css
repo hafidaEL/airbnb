@@ -270,7 +270,7 @@ a {
 .paquet3 {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .img_chezqqn2 {
@@ -278,6 +278,8 @@ a {
 	background-repeat: no-repeat;
 	min-width: 314px;
 	height: 344px;
+	flex: 1 0 0;
+
 }
 
 .img_rome {
@@ -285,7 +287,7 @@ a {
 	background-repeat: no-repeat;
 	min-width: 314px;
 	height: 344px;
-	flex: 1;	
+	flex: 2 0 0;
 }
 
 .paquet4 {
